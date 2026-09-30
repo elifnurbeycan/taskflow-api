@@ -1,0 +1,8 @@
+const ErrorCodes = Object.freeze({
+    TASK_NOT_FOUND: "TASK_NOT_FOUND",
+    ROUTE_NOT_FOUND: "ROUTE_NOT_FOUND",
+    VALIDATION_ERROR: "VALIDATION_ERROR",
+    INTERNAL_SERVER_ERROR: "INTERNAL_SERVER_ERROR"
+});
+
+module.exports = ErrorCodes;
